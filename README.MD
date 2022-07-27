@@ -33,7 +33,7 @@ v   Edit Comment
 v   Delete Comment
 
 ## DMs
-   Create Room
-   Get Room
-   Send Message
-   Realtime Messages
+v   Create Room
+v   Get Room
+v   Send Message
+v   Realtime Messages
