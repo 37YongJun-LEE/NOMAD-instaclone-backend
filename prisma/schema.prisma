@@ -100,3 +100,4 @@ model Message {
 }
 
 //prisma schema를 변경할 때 마다, 반드시 migrate 해줘야한다.
+// npm run migrate
