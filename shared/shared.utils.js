@@ -7,6 +7,7 @@ export const uploadToS3 = async (file, userId, folderName) => {
         secretAccessKey: process.env.AWS_SECRET,
       },
     });
+    //console.log(file)
     const { filename, createReadStream } = await file;
     const readStream = createReadStream();
     const objectName = `${folderName}/${userId}-${Date.now()}-${filename}`;

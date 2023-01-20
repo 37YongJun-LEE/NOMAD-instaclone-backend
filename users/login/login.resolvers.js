@@ -8,6 +8,7 @@ export default {
 
         login: async(_, {username, password}) => {
             // find user with args.username
+            console.log(username, password)
             const user = await client.user.findFirst({where:{username}})
             if(!user) {
                 return {
